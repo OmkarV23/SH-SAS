@@ -1,0 +1,8 @@
+bindings.cpp
+setup.py
+sh2scatter.cu
+eval_sh/__init__.py
+eval_sh.egg-info/PKG-INFO
+eval_sh.egg-info/SOURCES.txt
+eval_sh.egg-info/dependency_links.txt
+eval_sh.egg-info/top_level.txt

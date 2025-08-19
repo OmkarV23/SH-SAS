@@ -1,0 +1,8 @@
+bindings.cpp
+setup.py
+sh_eval.cu
+SH_eval.egg-info/PKG-INFO
+SH_eval.egg-info/SOURCES.txt
+SH_eval.egg-info/dependency_links.txt
+SH_eval.egg-info/top_level.txt
+eval_sh/__init__.py

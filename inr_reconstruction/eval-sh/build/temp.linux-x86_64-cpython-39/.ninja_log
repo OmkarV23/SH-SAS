@@ -1,0 +1,7 @@
+# ninja log v5
+1	18573	1753218666723961579	/home/omkar/Desktop/All_Desktop_files/Projetcs/Acoustic_fields/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/bindings.o	a2e6b61aad180e5c
+1	43685	1753218691893082950	/home/omkar/Desktop/All_Desktop_files/Projetcs/Acoustic_fields/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/sh2scatter.o	aae5bc3fde579f14
+11	18088	1755542671122389552	/home/omkar/Desktop/All_Desktop_files/Projetcs/SH-SAS/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/bindings.o	1fd9830c4e548108
+11	56162	1755542709256067764	/home/omkar/Desktop/All_Desktop_files/Projetcs/SH-SAS/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/sh2scatter.o	e0717004d2598c52
+36	17154	1755547984390999707	/home/omkar/Desktop/All_Desktop_files/Projetcs/SH-SAS/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/bindings.o	7d6a23e81a235db0
+37	55070	1755548022355976237	/home/omkar/Desktop/All_Desktop_files/Projetcs/SH-SAS/inr_reconstruction/eval-sh/build/temp.linux-x86_64-cpython-39/sh2scatter.o	84a1849dfa6d5e5c
