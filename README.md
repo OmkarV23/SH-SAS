@@ -79,7 +79,6 @@ cd ./scenes/simulated/xyz_dragon
 chmod +x neural_backproject.sh
 
 # Run neural backprojection script
-
 ./neural_backproject.sh <path_to_system_data> <path_to_fit_folder> <experiment_name>
 
 # If you choose to run the pulse deconvolution script, you can use the following command:
