@@ -57,11 +57,13 @@ pip install .
 cd ../../
 ``` -->
 
-### Data
+## Data
 We are providing one example dataset for testing purposes. You can find it in the `SH-SAS-data` directory.
 There are two folders: `airsas` and `simulated`. The `airsas` folder contains real AirSAS data, while the `simulated` folder contains synthetic data. Both contains a `system_data.pik` file and precomputed pulse deconvolved measurements in the `deconvolved_measurements` folder.
 
-### Running experiments (Optional)
+## Running experiments
+
+### Pulse Deconvolution (Optional)
 If you still want to run pulse deconvolution and test it by yourself, 
 ```bash
 cd ./scenes/simulated/xyz_dragon
