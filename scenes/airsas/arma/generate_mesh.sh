@@ -12,4 +12,4 @@ python ../../../inr_reconstruction/upsample_network_with_input_args.py \
   --max_voxels 15000 \
   --view_model \
   --threshold 0.1 \
-  --model_path /home/omkar/Desktop/All_Desktop_files/Projetcs/Acoustic_fields/scenes/airsas/arma_20k/nbp_output/arma_20k_view_sh_3/models/025000.tar
+  --model_path $3

@@ -1,9 +1,13 @@
 #!/bin/bash
 
+echo "System data path: $1"
+echo "Fit folder path: $2"
+echo "Experiment name: $3"
+
 python ../../../inr_reconstruction/reconstruct_scene_dir_sh.py \
   --scene_inr_config ./nbp_config.json \
-  --fit_folder ../../../../Acoustic_fields/scenes/airsas/arma_20k/deconvolved_measurements/ \
-  --system_data ../../../../Acoustic_fields/scenes/airsas/arma_20k/system_data.pik \
+  --fit_folder $2 \
+  --system_data $1 \
   --output_dir ./nbp_output \
   --plot_thresh 2. \
   --learning_rate 1e-3 \
@@ -29,7 +33,7 @@ python ../../../inr_reconstruction/reconstruct_scene_dir_sh.py \
   --point_at_center \
   --transmit_from_tx \
   --normalize_scene_dims \
-  --expname arma_20k \
+  --expname $3 \
   --beamwidth 30 \
   --phase_loss 1e-1 \
   --no_reload \

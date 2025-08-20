@@ -253,11 +253,11 @@ if __name__ == '__main__':
 
     point_cloud_to_mesh_marching_cube(condition, output_dir)
 
-    np.save(os.path.join(output_dir, args.output_scene_file_name + '.npy'), comp_albedo)
+    # np.save(os.path.join(output_dir, args.output_scene_file_name + '.npy'), comp_albedo)
 
-    data = {
-        'scene': comp_albedo,
-    }
+    # data = {
+    #     'scene': comp_albedo,
+    # }
 
-    scipy.io.savemat(os.path.join(output_dir, args.output_scene_file_name + '.mat'), data)
+    # scipy.io.savemat(os.path.join(output_dir, args.output_scene_file_name + '.mat'), data)
 
