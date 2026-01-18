@@ -3,7 +3,7 @@
 python ../../../inr_reconstruction/deconvolve_measurements.py \
   --inr_config ./deconvolve_config.json \
   --system_data $1 \
-  --output_dir ./deconvolved_measurements \
+  --output_dir $2 \
   --learning_rate 1e-4 \
   --num_trans_per_inr 360 \
   --number_iterations 1000 \

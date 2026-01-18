@@ -12,4 +12,5 @@ python ../../../inr_reconstruction/upsample_network_with_input_args.py \
   --max_voxels 15000 \
   --view_model \
   --threshold 0.1 \
-  --model_path $3
+  --model_path $3 \
+  --max_sh_degree 3

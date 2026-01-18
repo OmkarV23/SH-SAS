@@ -1,0 +1,15 @@
+python ../../../inr_reconstruction/upsample_network_with_input_args.py \
+    --system_data $1 \
+    --exp_name svss_cinder_up_exp_2_sh_mlp \
+    --experiment_dir ./ \
+    --inr_config ./nbp_config.json \
+    --output_scene_file_name final_scene \
+    --output_dir_name reconstructed_scenes \
+    --model_path $3 \
+    --threshold 0.2 \
+    --sf 1 \
+    --flip_z \
+    --num_layers 4 \
+    --num_neurons 128 \
+    --view_model \
+    --max_sh_degree 1

@@ -3,15 +3,16 @@
 python ../../../inr_reconstruction/deconvolve_measurements.py \
   --inr_config ./pulse_deconvolve.json \
   --system_data $1 \
-  --clear_output_dir \
   --output_dir $2 \
   --learning_rate 1e-3 \
-  --num_trans_per_inr 360 \
+  --num_trans_per_inr 600 \
   --number_iterations 1000 \
+  --sparsity 2e-2 \
   --info_every 999 \
-  --sparsity 1e-1 \
-  --load_wfm ../../../data/wfm/20khz_bw_lfm.npy \
-  --phase_loss 1e-4 \
-
-
-  # hello
+  --compare_with_mf \
+  --subtract_dc \
+  --phase_loss 3e-5 \
+  --linear_plot \
+  --drc_gt 1.0 \
+  --drc_weights 0.6 \
+  --clear_output_directory \

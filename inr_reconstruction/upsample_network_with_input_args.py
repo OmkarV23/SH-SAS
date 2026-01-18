@@ -84,6 +84,8 @@ def config_parser():
                         help="Threshold for the albedo values")
     parser.add_argument('--view_model', required=False, default=False, action='store_true',
                         help="Whether to view the model")
+    parser.add_argument('--max_sh_degree', required=False, type=int, default=3,
+                        help="Max SH degree used in the model (only for view_model=True)")
     return parser
 
 if __name__ == '__main__':
@@ -174,7 +176,8 @@ if __name__ == '__main__':
         scene_model = Network(mlp_dim=args.num_neurons,
                         mlp_num_layers=args.num_layers,
                         num_channels=2,
-                        device=dev)
+                        device=dev,
+                        max_sh_degree=args.max_sh_degree)
         print("Using view model with mlp_dim", args.num_neurons, "and num_layers", args.num_layers)
     else:
         with open(scene_inr_config) as config_file:
@@ -182,7 +185,8 @@ if __name__ == '__main__':
         scene_model = Network(inr_config=inr_config,
                           dev=dev,
                           num_layers=num_layers,
-                          num_neurons=num_neurons)
+                          num_neurons=num_neurons
+                          )
 
 
     ckpt = torch.load(ckpt_path)

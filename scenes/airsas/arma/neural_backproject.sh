@@ -37,7 +37,7 @@ python ../../../inr_reconstruction/reconstruct_scene_dir_sh.py \
   --beamwidth 30 \
   --phase_loss 1e-1 \
   --no_reload \
-  --sh_levels 0 \
+  --sh_levels 3 \
   # --resample_measurements \
   # --skip_every_n 5
 

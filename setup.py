@@ -5,7 +5,7 @@ setup(name='sh_sas',
       install_requires=['commentjson', 'scipy', 'tqdm', 'matplotlib', 'PyMCubes', 'debugpy',
                         'pyqtgraph', 'PyQt6', 'PyOpenGL', 'opencv-python-headless', 'commentjson',
                         'tensorboard', 'PyQt5', 'h5py', 'bs4', 'gdown', 'trimesh', 'Rtree',
-                        'pandas', 'open3d', 
+                        'pandas', 'open3d', 'gdown'
                         # 'pytorch3d', 
                         'fvcore', 'iopath', 'PyWavefront', 'pyrender'],
       packages=find_packages())
